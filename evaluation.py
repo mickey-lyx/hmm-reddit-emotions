@@ -1,8 +1,3 @@
-"""
-Evaluation Module for HMM State-Label Mapping and Accuracy Assessment
-Maps HMM hidden states to emotion labels and evaluates prediction accuracy.
-"""
-
 from typing import List, Tuple
 import numpy as np
 from numpy.typing import NDArray
@@ -230,3 +225,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
